@@ -2,7 +2,7 @@ import React from 'react'
 import './projects.css'
 function Projects() {
   return (
-    <div className='projectsPageDiv' style={{overflow:"scroll"}}>
+    <div className='projectsPageDiv' >
          <div className="background-img">
           <nav>
             <nav className="navbar navbar-new navbar-light navbar-expand-md">
