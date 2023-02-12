@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 
 nav{
   animation: translateIn ease 0.25s;
@@ -12,9 +15,7 @@ nav{
   }
 }
 
-.projectsPageDiv{
-  overflow: auto;
-}
+
 .nav-link{
   font-family: 'Raleway';
   font-style: normal;
@@ -86,6 +87,9 @@ transition: transform 250ms ease-in-out;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  padding-bottom: 15px;
+  position: relative;
+  z-index: 5;
 }
 .page-header{
   margin-left:140px;
@@ -94,10 +98,10 @@ transition: transform 250ms ease-in-out;
   font-size: 70px;
   line-height: 63px;
   color: #041626;
-  margin-top:150px;
+  padding-top: 200px;
 }
 .heading-con{
-  margin-top:30px;
+  margin-top: -20px;
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 500;
@@ -176,7 +180,6 @@ transition: transform 250ms ease-in-out;
   text-transform: uppercase;
   margin-top: 29px;
   margin-bottom: 32px;
-  font-family: 'Cabin';
   font-style: normal;
   color: white;
   font-weight: 600;
@@ -184,7 +187,6 @@ transition: transform 250ms ease-in-out;
   line-height: 24px;
 }
 .project-description{
-  font-family: 'Cabin';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -216,7 +218,7 @@ transition: transform 250ms ease-in-out;
   align-items: center;
 }
 .footer-link{
-  font-family: 'Cabin';
+  font-family: ''Cabin'';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -256,11 +258,14 @@ transition: transform 250ms ease-in-out;
       padding: 0;
   }
   .page-header>h1{
-       text-align: center;
+      text-align: center;
+      margin: 0 !important;
+      padding-top: 50%;
+      padding-bottom: 20px;
   }
   .page-header{
       margin:0;
-      margin-top:10%;
+      padding-top: 0;
   }
   .heading-con{
       color: #3b4750;
@@ -288,8 +293,17 @@ transition: transform 250ms ease-in-out;
       text-align: center;
   }
   .project-card{
-      height: 450px;
-      width: 315px;
+      height: 470px;
+      width: 300px;
+  }
+  .project-description{
+    text-align: center;
+  }
+  .project-heading{
+    text-align:center;
+  }
+  .project-image{
+    background-position: center;
   }
   .background-img{
       background-position: -187px;
