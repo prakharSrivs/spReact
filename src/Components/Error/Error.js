@@ -1,21 +1,38 @@
 import React from 'react'
-import { Navigate } from 'react-router-dom'
-
+import { Link } from 'react-router-dom'
+import Navbar from '../Navbar/Navbar'
+import './Error.css'
 function Error() {
+  document.body.style.backgroundColor = "#010101";
   return (
-    <div>
-        <h1 style={{
-        color:"#b9b9b9"
-        }}>
-            Whoops Nothing to see Here <br/>
-            Page Not Found 404 
-        </h1>
-        <h2 style={{
-        color:"#b9b9b9"
-        }}>
-            To Navigate back to the home page Click on the below link
-        </h2>
-        <a href='/home'> Home</a>
+    <div className='errorContainer'>
+    <div className="brandHeading navbar-brand ">
+      SANGANAN PRAYOG
+    </div>
+    <div className="errorHeading">
+        <div className="errorHeading4">
+        4
+        </div>     
+        <div className="errorHeading0">
+        0
+        </div> 
+        <div className="errorHeading4">
+        4
+        </div>
+    </div>
+    <div className="errorContent">
+    <div className="errorContentWhite">
+    SORRY, THERE'S 
+    </div>
+    <div className="errorContentColor">
+    NOTHING HERE
+    </div>
+    
+    </div>
+    <div className="goHomeButton">
+    <Link className='goHomeButton' to='/'>GO HOME</Link>
+    </div>
+
     </div>
   )
 }
