@@ -1,6 +1,10 @@
 import React from 'react'
 import './projects.css'
+
+
+
 function Projects() {
+  document.body.style.overflow = "";
   return (
     <div className='projectsPageDiv' >
          <div className="background-img">

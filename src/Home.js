@@ -1,9 +1,13 @@
 import React from 'react'
 import './style.css'
 
+
+
 function Home() {
+  document.body.style.overflow = "hidden";
+  //Upon rendering a new compmonent just add the line document.body.style.overflow = "auto";
   return (
-    <div>
+    <div className='imitateBody'>
          <h1 className="logo">
           Sanganan-Prayog
           <span /> {/* U can add a tagline here if u wish */}
