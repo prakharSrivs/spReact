@@ -235,7 +235,7 @@ function Home() {
                 <p />
                 <label htmlFor="readSaturn">
                   {/* Put the site redirect location in the anchor tag below */}
-                  <a>
+                  <a href="\Mission" target="_blank" style={{textDecoration: 'none'}}> 
                     Mission
                   </a>
                 </label>

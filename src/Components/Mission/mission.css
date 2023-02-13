@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+*{
+margin: 0;
+padding: 0;
+}
+ .mission{
+	
+		background-image:
+		url(
+		../Mission/mbg.jpg);
+		
+		
+		
+}
+
+.container {
+    
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: 0 auto;
+    margin-top:0px;
+}
+.p{
+	font-weight: bold;
+}
+.timeline {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 100%;
+}
+ 
+	
+ 
+.icon {
+	
+	color: transparent;
+	
+}
+
+.information {
+	text-align: center;
+	margin-top: 14vh;
+	padding: 10px;
+	border-radius: 5px;
+	order:3;
+	width: 80%;
+	color: black;
+	padding-left: 10px;
+	background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border: 1px solid rgba(255,255,255,0.18);
+	box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+	transition: all .6s ease;
+	
+	
+}
+
+
+.information {
+	margin-bottom: 3%;
+}
+ .information:hover {
+	transform: scale(1.05);
+
+ }
+
+.information h2 {
+	margin: 0;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Russo One', sans-serif;
+	letter-spacing: 2px;
+}
+.information p {
+	line-height: 1.4;
+	font-family: montserrat;
+	font-weight: bold;
+}
+
+.information .fade-in{
+	animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+to {
+	opacity: 1;
+}
+	
+}
+@media (min-width: 640px) {
+	.information, .custom {
+		width: 40%;
+	}
+	.box-right .information {
+		order: 1;
+		padding-right: 0px;
+	}
+	.box-right .custom {
+		order: 3;
+	}
+}
