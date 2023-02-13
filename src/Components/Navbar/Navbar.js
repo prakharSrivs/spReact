@@ -23,9 +23,9 @@ const Navbar = () => {
                     </div>
                     <div className="nav_menu">
                         <ul className='nav_menu_list'>
-                            <li className='nav_menu_item'><a href="#about">Projects</a></li>
-                            <li className='nav_menu_item'><a href="#problems">Events</a></li>
-                            <li className='nav_menu_item'><a href="#timeline">Team</a></li>
+                            <li className='nav_menu_item'><a href="/projects">Projects</a></li>
+                            <li className='nav_menu_item'><a href="/events">Events</a></li>
+                            <li className='nav_menu_item'><a href="/aboutus">Team</a></li>
                             <li className='nav_menu_item'><a href="#faqs">Contact Us</a></li>
                         </ul>
                         <i onClick={handleMenu} className={`nav_menu_icon fa-solid fa-bars`} />
@@ -34,11 +34,11 @@ const Navbar = () => {
             </nav>
 
             <ul className={menu ? 'nav_mobile' : 'nav_mobile mobile_active'}>
-                <li onClick={() => setMenu(!menu)} className='mobile_menu_item'><a href="#about">Projects</a></li>
-                <li onClick={() => setMenu(!menu)} className='mobile_menu_item'><a href="#problems">Events</a></li>
-                <li onClick={() => setMenu(!menu)} className='mobile_menu_item'><a href="#timeline">Team</a></li>
+                <li onClick={() => setMenu(!menu)} className='mobile_menu_item'><a href="/projects">Projects</a></li>
+                <li onClick={() => setMenu(!menu)} className='mobile_menu_item'><a href="/events">Events</a></li>
+                <li onClick={() => setMenu(!menu)} className='mobile_menu_item'><a href="/aboutus">Team</a></li>
                 {/* <li onClick={() => setMenu(!menu)} className='mobile_menu_item'><a href="#sponsors">Sponsors</a></li> */}
-                <li onClick={() => setMenu(!menu)} className='mobile_menu_item'><a href="#faqs">Contact Us</a></li>
+                <li onClick={() => setMenu(!menu)} className='mobile_menu_item'><a href="/contactus">Contact Us</a></li>
             </ul>
         </>
     );
