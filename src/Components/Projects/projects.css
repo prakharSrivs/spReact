@@ -101,6 +101,7 @@ transition: transform 250ms ease-in-out;
   padding-top: 200px;
 }
 .heading-con{
+  margin-top:15px;
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 500;
