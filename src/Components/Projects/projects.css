@@ -101,7 +101,6 @@ transition: transform 250ms ease-in-out;
   padding-top: 200px;
 }
 .heading-con{
-  margin-top: -20px;
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 500;
@@ -218,7 +217,7 @@ transition: transform 250ms ease-in-out;
   align-items: center;
 }
 .footer-link{
-  font-family: ''Cabin'';
+  font-family: 'Cabin';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
