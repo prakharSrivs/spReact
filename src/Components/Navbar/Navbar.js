@@ -19,7 +19,7 @@ const Navbar = () => {
                 data-aos-once="false" style={{background:"none"}}>
                 <div className="nav_wrapper">
                     <div className="logo">
-                        SANGANAN PRAYOG
+                    <a href='/'>SANGANAN PRAYOG</a>
                     </div>
                     <div className="nav_menu">
                         <ul className='nav_menu_list'>
