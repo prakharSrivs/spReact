@@ -2,6 +2,7 @@ import React from 'react';
 import './mission.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import space from '../Mission/space.mp4'
 
 
 
@@ -24,6 +25,11 @@ const Mission = () => {
 
     <>
      <Navbar/>
+
+     <video autoPlay loop muted id="myVideo">
+        <source src={space} type="video/mp4"/>
+      </video>
+      
    
    <div className='mission'>
 
@@ -81,13 +87,19 @@ const Mission = () => {
                     water levels etc, Knowing and understanding the stage on which our 
                     life is being played is crucial for any existence to have real meaning.</p>
             </div>
+            <div>
+            
+            </div>
+            
         </div>
+        
         </div>
+        
+        
+        </div>
+        
+       
         <Footer/>
-        
-        </div>
-        
-
 
          
 

@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-*{
-margin: 0;
-padding: 0;
-}
- .mission{
-	
-		background-image:
-		url(
-		../Mission/mbg.jpg);
-		
-		
-		
-}
+
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+  }
+
 
 .container {
     
@@ -46,7 +44,7 @@ padding: 0;
 	border-radius: 5px;
 	order:3;
 	width: 80%;
-	color: black;
+	color: white;
 	padding-left: 10px;
 	background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
 	backdrop-filter: blur(10px);
