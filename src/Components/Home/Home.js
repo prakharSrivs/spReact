@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import SpMobile from '../SpMoblie/SpMobile';
+import SpMobile from '../SpMobile/SpMobile';
 import './style.css'
 
 

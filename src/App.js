@@ -5,7 +5,7 @@ import Projects from './Components/Projects/Projects'
 import Error from './Components/Error/Error'
 import Mission from './Components/Mission/Mission';
 import MagazineViewer from './Components/Magazine/MagazineViewer';
-import SpMobile from './Components/SpMoblie/SpMobile';
+import SpMobile from './Components/SpMobile/SpMobile';
 function App() {
   return (
     <BrowserRouter>
