@@ -21,7 +21,7 @@ function SpMobile() {
     IN DESKTOP
     </div>  
     </div>
-    <div style={{marginTop:"25px"}}>
+    <div style={{marginTop:"50px"}}>
       <a href="/magazine" className='magButton'><span>Magazine</span></a>
       </div>
       <div style={{marginTop:"30px"}}>
