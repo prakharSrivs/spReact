@@ -33,7 +33,7 @@ function SpMobile() {
         Mission
       </a>
       </div>
-      <div className="projects-socials" style={{marginTop:"100px"}}>
+      <div className="projects-socials" style={{marginTop:"150px"}}>
             <div className="project-social" style={{marginLeft:0}}>
               <a href="https://www.instagram.com/sanganan_prayog/" style={{textDecoration: 'none', color: 'white'}}>
                 <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
