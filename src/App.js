@@ -5,7 +5,7 @@ import Projects from './Components/Projects/Projects'
 import Error from './Components/Error/Error'
 import Mission from './Components/Mission/Mission';
 import MagazineViewer from './Components/Magazine/MagazineViewer';
-
+import SpMobile from './Components/SpMoblie/SpMobile';
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +16,8 @@ function App() {
         <Route path='/projects' element={<Projects />} />
          <Route path='/mission' element={<Mission />} />
          <Route path='/magazine' element={<MagazineViewer />} />
+         <Route path='/mobile' element={<SpMobile />} />
+
         {/* <Route path='/About Us' element={<AboutUs />} /> */}
         <Route path='/not-found' element={<Error />} />
       </Routes>

@@ -1,4 +1,6 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
+import SpMobile from '../SpMoblie/SpMobile';
 import './style.css'
 
 
@@ -6,7 +8,9 @@ import './style.css'
 function Home() {
   document.body.style.overflow = "hidden";
   //Upon rendering a new compmonent just add the line document.body.style.overflow = "auto";
+
   return (
+    window.innerWidth<=853 ? <SpMobile/> :
     <div className='imitateBody'>
          <h1 className="logo">
           Sanganan-Prayog
