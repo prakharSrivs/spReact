@@ -11,7 +11,7 @@ function MagazineViewer() {
   return (
     <div>
       <center>
-        <div style={{overflowY:"scroll"}}>
+        <div >
         <Document loading={"Warning: Don't set yourself on fire."} file="/somefile.pdf" onLoadSuccess={onDocumentLoadSuccess}>
         {Array.from(
               new Array(numPages),
