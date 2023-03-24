@@ -15,7 +15,7 @@ function MagazineViewer() {
     <div>
       <center>
         <div >
-        <Document loading={"Warning: Don't set yourself on fire."} file="/somefile.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+        <Document loading={"We're testing your patience"} file="/somefile.pdf" onLoadSuccess={onDocumentLoadSuccess}>
         {Array.from(
               new Array(numPages),
               (el,index) => (
