@@ -32,6 +32,7 @@ function Projects() {
           <ProjectCard imageClass="project-image-6 project-image" key="6" heading="air quality detector" content="In this project, ML and IOT are used to detect the air quality of a particular area and project got selected for ISRO  Student Project Air Pollution Monitoring System ." />
         </div>
         <Footer/>
+        <img style="position: absolute;top: 0;" src="https://hitwebcounter.com/counter/counter.php?page=8428150&style=0001&nbdigits=3&type=page&initCount=0" title="Page Visits" Alt="web counter"   border="0" />
     </div>
   )
 }
